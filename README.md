@@ -11,3 +11,7 @@ Requirements
 - #!/bin/bash
 - sufficient privelages to do all the things
 - sorry for incomplete readme, just throwing this up for now
+- NPM Packages
+  - http
+  - fs
+  - querystring
