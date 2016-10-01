@@ -8,6 +8,7 @@ Joel is kind of a namesake, a person I know to respresent the zany architecture 
 
 Requirements
 - Node
+- g++
 - #!/bin/bash
 - sufficient privelages to do all the things
 - sorry for incomplete readme, just throwing this up for now
