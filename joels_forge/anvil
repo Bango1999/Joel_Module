@@ -1,0 +1,20 @@
+#!/bin/bash
+rm o/output
+touch o/output
+g++ $1 -o o/out >& o/output
+string=$(cat o/output)
+if [ -n "$string"  ]; then
+   # echo '<h2 class="footHead" style="background-repeat:repeat;margin:5px;padding:10px;text-shadow:2px 2px 2px black;">Failure</h2>';
+    echo "----"
+    echo "FAIL"
+    echo "----"
+    cat o/output
+    exit 1;
+else
+   # echo '<h2 style="background-repeat:repeat;margin:5px;padding:10px;text-shadow:2px 2px 2px black;">Success</h2>';
+    echo "-------"
+    echo "SUCCESS"
+    echo "-------"
+    #/var/www/Joel/joels_forge/o/out $2
+    exit 0;
+fi
