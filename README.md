@@ -4,6 +4,7 @@ Theoretically would be able to take parameters.  I've had this working very prec
 
 Use at your own risk, and eventually to your own undoing.
 
+The name Joel is based off of the zany Uncle of a good friend I had growing up.  A quirky and resourceful fellow, to be sure!
 
 Requirements
 - Node
